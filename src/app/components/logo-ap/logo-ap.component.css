@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logoAP{
+    width: 130px;
+}
+img{
+    width: 50px;
+}
+button{
+    border-color: white;
+    background-color:#05426b; 
+    color: white;
+    margin-right: 1em;
+    margin-left: 1em;
+    border-width:medium;
+}
+/*para celulares */
+@media (max-width:575px){ 
+.container{
+    flex-direction: column;
+}
+.red-sociales{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.red-sociales img{
+    margin: 0,2em;
+}
+}
