@@ -11,8 +11,8 @@
         <a href=""><img src="../../../assets/twitter.png" id="twitter" alt=""></a>
         <a href=""><img src="../../../assets/github.png" id="github" alt=""></a>
         <a href=""><img src="../../../assets/linkedin.png" id="linkedin" alt=""></a>
-        <button type="button" class="btn btn-primary">INGRESAR</button>
-        
+        <button type="button" class="btn btn-primary"(click)="login()" *ngIf="!isLogged">INGRESAR</button>
+        <button type="button" class="btn btn-primary"(click)="onLogout()" *ngIf="isLogged">CERRAR SESION</button>
     </div>
     
 </div>
