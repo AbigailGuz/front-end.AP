@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class PersonaService {
-  URL = 'http://localhost:8080/personas/';
+  URL = 'https://apbackag-1m0i.onrender.com/personas/';
 
   constructor(private HttpClient: HttpClient) { }
 
