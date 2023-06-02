@@ -8,7 +8,8 @@ import { Experiencia } from '../model/experiencia';
 })
 export class SExperienciaService {
 
-  URL = 'http://localhost:8080/explab/'
+  /*URL = 'http://localhost:8080/explab/';*/
+  URL = 'https://eag-874l.onrender.com/explab/'
 
   constructor(private httpClient: HttpClient) { }
 
